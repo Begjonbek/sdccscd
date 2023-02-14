@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+   
+}
+
+.container{
+    max-width: 1320px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+
+/* header start */
+
+header{
+    background-color: #F5F5F5;
+    padding-top: 17px;
+    padding-bottom:17px ;
+}
+
+.header-img{
+    width: 100%;
+}
+
+.header-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    gap: 39px;
+}
+
+.navbar-list{
+    display: flex;
+    align-items: center;
+    gap: 31.7px;
+}
+
+.navbar-link{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 0px;
+    text-decoration: none;
+    color: #394149;
+}
+
+
+
+.btn-link{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 17px;
+    color: #F58A07;
+    text-decoration: none;
+    background-color: rgba(245, 138, 7, 0.1);
+    border-radius: 31px;
+    padding: 18px 32px 17px 32px;
+    border: none;
+}
+.btn-link:hover{
+    color: #844a04;
+    background-color: rgba(245, 138, 7, 0.1);
+    transition: 0.8s;
+}
+.btn-link:active{
+    color: #690404;
+    background-color: rgba(245, 138,  0.1);
+    transition: 0.5s;
+}
+/* header end */
+
+/* artificial strat  */
+
+.artificial {
+    background-color: #F5F5F5;
+}
+
+.artificial-container {
+    padding-top: 91px;
+    padding-bottom: 0px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.artificial-list {
+}
+.artificial-list-1 {
+  
+}
+.artificial-title {
+}
+.artificial-paragrf {
+}
+
+
+/* artificial end  */
+@media only screen and (max-width:860px){
+    .navbar-list{
+        display: none;
+    }
+}
+@media only screen and (max-width:576px){
+    .header-img{
+        max-width:80px ;
+    }
+    .header-btn-link{
+        padding: 10px 32px 9px 32px;
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width:375px){
+    .header-btn-link{
+        display: none;
+    }
+}
